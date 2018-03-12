@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -17,6 +19,21 @@ $conn = new mysqli($servername, $username, $password, $db);
     <body>
         <?php 
         
+        function downloaden($conn){
+        $sql = "SELECT * FROM schepen";
+        $result = $conn->query($sql);
+
+             if ($result->num_rows > 0) {
+            // output data of each row
+               while($row = $result->fetch_assoc()) {
+                echo "id:" .$row['id']. "shipname: " . $row["scheepsnaam"]. " - Geschiedenis: " . $row["history"]. " " . $row["kenmerk"]. "<br>" ;       
+
+             }
+             }
+        }
+             
+         echo downloaden($conn);
+      
         function updaten($conn){
                       
             $var1 = $_POST['shipname'];
@@ -35,6 +52,8 @@ $conn = new mysqli($servername, $username, $password, $db);
             
            
         }
+        
+        
         ?>
    
         <form method="post" action="index.php" name="form">

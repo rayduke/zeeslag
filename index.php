@@ -43,28 +43,6 @@
     <body>
 <?php
 
-//if(isset($_GET['newgame'])){
-//if($_GET['newgame'] == "newgame"){
-//    $_SESSION['speelveld'] = getSpeelveld();
-//}
-//}
-//$speelveld = $_SESSION['speelveld'];
-function getSpeelveld(){
-$speelveld = [
-    [0,0,0,0,0,0,0,0,0,0],
-    [0,0,0,0,0,0,0,0,0,0],
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,2,2,2,2,2,2,2,2,2],
-    [2,2,2,2,2,2,2,2,2,2]
-];
-return $speelveld;
-}
-
 
 tabelmaken();
 $_SESSION['speelveld'] = $speelveld;

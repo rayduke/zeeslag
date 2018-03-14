@@ -6,11 +6,11 @@
                 height: 40px;
             }
             .blauw{
-                background-color: blue;
+                background-color: grey;
             }
             .navy{
                 
-                background-color: navy;
+                background-color: grey;
             }
             div{
                 margin:auto;
@@ -28,19 +28,25 @@
         </style>
         <script>
                 function klik(a,b){
+                var cordinaat = a.value;    
+                    
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function() {                   
                     if (this.readyState == 4 && this.status == 200) {
                         document.getElementById("vakje"+a+""+b).innerHTML = xhttp.responseText;
                     }
                 };
-                xhttp.open("GET", "boot.php", true);
+                xhttp.open("GET", "boot.php?coordinaata="+a.value, true);
                 xhttp.send();
-           }
+//                dt.onclick = change;
+//           }
+//           function change();
 
         </script>
     </head>
     <body>
+                <a href="nieuw.php">nieuw</a>
+        <p>testetsetset</p>
 <?php
 
 

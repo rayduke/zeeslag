@@ -3,13 +3,13 @@
 
 $vara = $_GET['coordinaata'];
 //$_GET['coordinaatb'];
-
+var_dump($vara);
 if($vara == 4){
     echo "raak";
 }else{
     echo "mis";
 }
-
+var_dump($vara);
 // check value 
 
 // als value boot is dan kleur rood. als niks is kleur blauw. on:hover oranje

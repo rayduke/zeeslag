@@ -13,10 +13,10 @@ $cor = $_GET['cora'];
 
 
 
-if($cor == "00" || $cor == "10"){
-    echo '<div id="hit">TEST</div>';
+if($cor == "00" || $cor == "10" || $cor == "20"){
+    echo '<div id="hit"></div>';
 }else {
-    echo '<div id="miss">TESTMISS</div>';
+    echo '<div id="miss"></div>';
 
 }
 //var_dump($cor);

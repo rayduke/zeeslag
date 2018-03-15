@@ -1,4 +1,8 @@
-<!DOCTYPE HTML>
+<?php
+include "functions.php";
+?>
+<!DOCTYPE HTML
+    
 <html>
     <head>
         <link rel="stylesheet" media="all" href="style.css"/>
@@ -11,12 +15,12 @@ include "classes.php";
 //echo "test 123";
 $cor = $_GET['cora'];
 
-
-
-if($cor == "00" || $cor == "10"){
-    echo '<div id="hit">TEST</div>';
+//$boot1 = ["00", "01", "02"];
+//var_dump($boot1);
+if(in_array($cor, $destroyer->cord)){
+    echo '<div id="hit"></div>';
 }else {
-    echo '<div id="miss">TESTMISS</div>';
+    echo '<div id="miss"></div>';
 
 }
 //var_dump($cor);

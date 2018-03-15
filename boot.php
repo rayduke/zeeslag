@@ -19,7 +19,7 @@ $cor = $_GET['cora'];
 
 
 if(in_array($cor, $allShips)){
-    echo '<div id="hit"></div>';
+    echo '<div id="hit"><img src="imgs/boom.gif" id="boom"></div>';
 }else {
     echo '<div id="miss"></div>';
 }

@@ -30,7 +30,6 @@ class Ship {
   
     //$ = ["00", "01", "02"];
 //var_dump($boot1);
-    
   
   
  

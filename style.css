@@ -9,23 +9,29 @@ td{
     background-color: navy;
 }
 
-/*div{*/
-    /*margin:auto;*/
-    /*width:30px;*/
-    /*height: 30px;*/
-/*}*/
 #hit{
     margin: auto;
     width: 30px;
     height: 30px;
-    background-color: red;
-    
+    background-color: red;   
 }
 
 #miss{
     margin: auto;
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: aqua;
     color: white;
 }
+
+#boom{
+    width: 30px;
+    height: 30px;
+    top: 0px;
+}
+
+/*#splash{
+    width:30px;
+    height:30px;
+    align-content: center;
+}*/

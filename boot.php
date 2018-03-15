@@ -1,16 +1,18 @@
 <?php
+include "classes.php";
+echo "test 123";
+$cor = $_GET['cora'];
+
+$carrier = new Carrier();
 
 
-$vara = $_GET['coordinaata'];
-//$_GET['coordinaatb'];
-var_dump($vara);
-if($vara == 4){
-    echo "raak";
-}else{
-    echo "mis";
-}
-var_dump($vara);
-// check value 
+var_dump($cor);
+
+
+
+?>
+
+<?php
 
 // als value boot is dan kleur rood. als niks is kleur blauw. on:hover oranje
 
@@ -64,4 +66,4 @@ var_dump($vara);
 // extra misschien multiplayer maken.                         
 
 
-echo "hij is raak"; 
+//echo "hij is raak"; 

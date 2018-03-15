@@ -12,9 +12,27 @@ td{
     background-color: grey;
 }
 
-div{
-    margin:auto;
-    width:30px;
+/*div{*/
+    /*margin:auto;*/
+    /*width:30px;*/
+    /*height: 30px;*/
+/*}*/
+#hit{
+    margin: auto;
+    width: 30px;
     height: 30px;
+    background-color: red;
+    color: red;
 }
 
+#miss{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: white;
+}
+
+body{
+    background-color: grey;
+}

@@ -1,19 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" media="all" href="style.css"/>
+    </head>
+    <body>
+
+
 <?php
 include "classes.php";
-echo "test 123";
+//echo "test 123";
 $cor = $_GET['cora'];
 
-$carrier = new Carrier();
 
 
-var_dump($cor);
+if($cor == "00" || $cor == "10"){
+    echo '<div id="hit">TEST</div>';
+}else {
+    echo '<div id="miss">TESTMISS</div>';
+
+}
+//var_dump($cor);
 
 
 
 ?>
-
+</body>
+</html>
 <?php
-
 // als value boot is dan kleur rood. als niks is kleur blauw. on:hover oranje
 
 //zelf tabel de value geven. 

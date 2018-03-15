@@ -1,9 +1,8 @@
 <?php
 include "functions.php";
 include "classes.php";
+
 ?>
-
-
 <!DOCTYPE HTML>
 <html>
 <head>

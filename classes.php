@@ -26,7 +26,11 @@ class Ship {
   
   $carrier = new Ship('Carrier', 5, ["08","18","28","38","48"]);
  
-    
+  $allShips = array_merge($destroyer->cord, $submarine->cord, $cruiser->cord, $battleship->cord, $carrier->cord);
+  
     //$ = ["00", "01", "02"];
 //var_dump($boot1);
     
+  
+  
+ 

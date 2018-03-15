@@ -30,7 +30,7 @@ include "classes.php";
 </head>
 <body>
    
-<header>Zeeslag</header>
+<h1>Zeeslag</h1>
 
    
 

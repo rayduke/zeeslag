@@ -15,9 +15,15 @@ include "classes.php";
 //echo "test 123";
 $cor = $_GET['cora'];
 
+<<<<<<< HEAD
 //$boot1 = ["00", "01", "02"];
 //var_dump($boot1);
 if(in_array($cor, $destroyer->cord)){
+=======
+
+
+if($cor == "00" || $cor == "10" || $cor == "20"){
+>>>>>>> refs/remotes/origin/raymon
     echo '<div id="hit"></div>';
 }else {
     echo '<div id="miss"></div>';

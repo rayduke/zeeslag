@@ -3,9 +3,6 @@ td{
     height: 40px;
 }
 
-.blauw{
-    background-color: blue;
-}
 
 .navy{
                 
@@ -31,8 +28,4 @@ td{
     height: 30px;
     background-color: white;
     color: white;
-}
-
-body{
-    background-color: grey;
 }

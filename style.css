@@ -4,12 +4,12 @@ td{
 }
 
 .blauw{
-    background-color: grey;
+    background-color: blue;
 }
 
 .navy{
                 
-    background-color: grey;
+    background-color: navy;
 }
 
 /*div{*/
@@ -22,7 +22,7 @@ td{
     width: 30px;
     height: 30px;
     background-color: red;
-    color: red;
+    
 }
 
 #miss{

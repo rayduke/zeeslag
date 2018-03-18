@@ -29,7 +29,11 @@ include "classes.php";
 </head>
 <body>
    
-<h1>Zeeslwag</h1>
+
+<h1>Zeeslag</h1>
+
+
+
 
    
 
@@ -38,12 +42,7 @@ include "classes.php";
     
     createTable();
     
-    
-    echo "ETSETSETSETSETSETSE" ;
     ?>
-<?php
-echo "DIT IS EEN TEST:";
-        ?>
 </body>
     
 </html>

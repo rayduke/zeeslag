@@ -1,7 +1,6 @@
 <?php
 include "functions.php";
 include "classes.php";
-
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -30,12 +29,19 @@ include "classes.php";
 </head>
 <body>
    
-<h1>Zeeslag-check</h1>
+
+<h1>Zeeslag</h1>
+
+
+
 
    
 
     <?php 
+
+    
     createTable();
+    
     ?>
 </body>
     

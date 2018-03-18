@@ -41,7 +41,7 @@ $cocarrier = explode(",", $filtercarrier);
 
 //echo var_dump($filterdestroyer);
 //echo var_dump($codestroyer);
-echo "<br>";
+//echo "<br>";
 
 //$var = ["00"];
 

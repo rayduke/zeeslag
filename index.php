@@ -44,7 +44,6 @@ include "classes.php";
   </script>
 </head>
 <body>
-
 <h1>Zeeslag</h1>
 
 

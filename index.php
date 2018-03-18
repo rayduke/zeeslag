@@ -24,6 +24,7 @@ include "classes.php";
                   xhttp.open("GET", "boot.php?cora="+a+b, true);
 //              
                   xhttp.send();
+        
         }
     </script>
 </head>

@@ -1,5 +1,6 @@
 <?php
 
+
 class Ship {
   public $name;
   public $boatLength;
@@ -45,8 +46,8 @@ $cocarrier = explode(",", $filtercarrier);
 
 //$var = ["00"];
 
-$destroyer = new Ship('Destroyer', 2, $codestroyer);
-//echo "<br><br>" . var_dump($destroyer);
+$destroyer = new Ship('Destroyer', 2, ["00,10"]);
+//echo "<br><br>" . var_dump($codestroyer);
 
 $submarine = new Ship('Submarine', 3, $cosubmarine);
 //echo "<br><br>" . var_dump($submarine);
@@ -59,7 +60,8 @@ $carrier = new Ship('Carrier', 5, $cocarrier);
 
 $allShips = array_merge($destroyer->cord, $submarine->cord, $cruiser->cord, $battleship->cord, $carrier->cord);
 
-//echo var_dump($allShips);
+$_SESSION['allships'] = $allShips;
+//echo var_dump($allShips) . " TEST";
 
 
 

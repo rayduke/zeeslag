@@ -1,4 +1,6 @@
 <?php
+//HIER WAT ANDERS
+//NOG MEER GEDOE
 include "functions.php";
 include "classes.php";
 //COMMENTAAR VAN FELIX`

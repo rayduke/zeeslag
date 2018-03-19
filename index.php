@@ -1,6 +1,9 @@
 <?php
+session_start();
+//commentaar raymon
 include "functions.php";
 include "classes.php";
+
 
 ?>
 <!DOCTYPE HTML>
